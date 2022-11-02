@@ -1,0 +1,11 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+#header-menu .simple-link, #header-menu .dropbtn3 {
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+.dropdown-content2 a {
+  font-size: 13px;
+}

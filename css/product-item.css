@@ -1,0 +1,172 @@
+.product-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-block .highslide {
+  width: 50%;
+  margin: 15px;
+}
+
+.product-block .highslide img {
+  width: 100%;
+}
+
+.prod-description {
+  background: url(../img/white-bg.png);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 45%;
+}
+
+.prod-description h3 {
+  margin-bottom: 3px;
+  font-size: 2rem;
+}
+
+.prod-description .price {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+  margin-top: 3px;
+}
+
+.prod-description .sub-text {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.prod-description p {
+  margin: 10px 0px;
+  margin-top: 3px;
+}
+
+.mini-gallery {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.mini-gallery a {
+  width: 24%;
+  margin: 5px;
+  height: 190px;
+}
+
+.mini-gallery a img {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.calc-text {
+  margin: 5px 0px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+#calculator {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#calculator #number {
+  width: 10rem;
+  font-size: 2.5rem;
+  padding: 0.15rem;
+}
+
+#calculator div {
+  font-size: 1.5rem;
+}
+
+#calculator .input-order {
+  display: flex;
+  flex-direction: row;
+}
+
+#calculator .input-order p {
+  margin-left: 5px;
+}
+
+#dop-price {
+  padding-top: 10px;
+  font-size: 1.3rem;;
+}
+
+#dop-price input {
+  width: 20px;
+  height: 20px;
+}
+
+#dop-price .sub-text {
+  font-size: 1.4rem;
+}
+
+#Btn-calculate {
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+#calculator #Btn-calculate:focus {
+  outline: none;
+}
+
+@media (max-width: 1000px) {
+  .mini-gallery {
+    width: 98%;
+  }
+  .mini-gallery a {
+    width: 30%;
+    margin: 5px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mini-gallery a {
+    width: 45%;
+    margin: 5px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 650px) {
+  .product-block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-block .highslide {
+    width: 95%;
+    margin: 15px 0px;
+  }
+  .prod-description {
+    padding: 1%;
+    width: 95%;
+  }
+  .mini-gallery {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .mini-gallery a {
+    width: 100%;
+    height: auto;
+  }
+  #dop-price {
+    font-size: 1.6rem;
+  }
+  #dop-price .sub-text {
+    font-size: 1.3rem;
+    padding: 0px 15px;
+  }
+}
